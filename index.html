@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Internship</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <img src="web-developer-logo-template_674356-207.avif" class="thumbnail" onclick="showImage('image1.jpg')" alt="Thumbnail 1">
+        <!-- Add more thumbnail images as needed -->
+    </div>
+
+    <!-- Image Slideshow -->
+    <div class="slideshow">
+        <img src="web-developer-logo-template_674356-207.avif" class="slide">
+        <!-- Add more image slides as needed -->
+    </div>
+
+    <section class="header">
+        <h1>Web Developer Internship Opportunities at Cognifyz Technologies</h1>
+        <p>Brief introduction here...</p>
+    </section>
+
+    <section class="highlights">
+        <h2>Highlights</h2>
+        <ul>
+            <li>Real-world experience</li>
+            <li>Mentorship</li>
+            <!-- Add more highlights as needed -->
+        </ul>
+    </section>
+
+    <section class="qualifications">
+        <h2>Qualifications</h2>
+        <p>Desired skills and technologies here...</p>
+    </section>
+
+    <button class="cta-btn" id="apply-btn">Apply Now</button>
+
+    <footer class="footer">
+        <p>Contact: <a href="mailto:rohitk84007@gmail.com">rohitk84007@gmail.com</a> | Phone: 9835318676</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="" id="modal-image" alt="Enlarged Image">
+    </div>
+
+    <!-- Your Custom Content -->
+    <section class="content">
+        <h2>Brief Introduction</h2>
+        <p>Welcome to the exciting world of web development at Cognifyz Technologies! Our internship program offers aspiring web developers a unique opportunity to gain hands-on experience in a dynamic and innovative environment. Join us as we push the boundaries
+            of technology and creativity to build cutting-edge web solutions.</p>
+    </section>
+
+    <section class="content">
+        <h2>Highlights</h2>
+        <ul>
+            <li>Real-world Experience: Dive into challenging projects and work on real client assignments to develop practical skills.</li>
+            <li>Mentorship: Receive guidance and support from experienced developers who are passionate about nurturing talent.</li>
+        </ul>
+    </section>
+
+    <section class="content">
+        <h2>Qualifications</h2>
+        <p>We are looking for candidates who possess:</p>
+        <ul>
+            <li>Proficiency in HTML, CSS, and JavaScript.</li>
+            <li>Strong problem-solving skills and a passion for learning.</li>
+            <li>Excellent communication and teamwork abilities.</li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+
+    <script>
+        document.getElementById('apply-btn').addEventListener('click', function() {
+            // Replace the alert with your desired action, such as redirecting to an application form
+            alert('You clicked the Apply Now button!');
+        });
+    </script>
+
+</body>
+
+</html>
